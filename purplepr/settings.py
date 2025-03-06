@@ -98,7 +98,7 @@ DATABASES = {
         'NAME': 'purple',
         'USER': 'root',
         'PASSWORD':'@1234567890',
-        'HOST':'127.0.0.1',
+        'HOST':'localhost',
         'PORT':'3306',
         'OPTIONS': {
             'charset': 'utf8mb4',  
