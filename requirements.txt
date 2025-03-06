@@ -1,5 +1,6 @@
 django
 pymysql
 djangorestframework
+django-cors-headers
 
 
