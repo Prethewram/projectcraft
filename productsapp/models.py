@@ -20,7 +20,7 @@ class Products(models.Model):
     newarrival = models.BooleanField()
     trending_one = models.BooleanField()
     subcategory = models.CharField(max_length=100,null=True,blank=True)
-    category__name = models.CharField(max_length=100,null=True,blank=True)
+    category_name = models.CharField(max_length=100,null=True,blank=True)
 
 
     def save(self, *args, **kwargs):
