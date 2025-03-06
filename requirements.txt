@@ -3,4 +3,4 @@ pymysql
 djangorestframework
 django-cors-headers
 pytz
-
+Pillow
